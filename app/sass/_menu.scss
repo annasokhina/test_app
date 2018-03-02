@@ -1,7 +1,7 @@
 #mainmenu {
   width:300px;
-  height:150vh;
-  position:absolute;
+  height:100vh;
+  position:fixed;
   top:0px;
   left:-300px;
   z-index:99;
@@ -9,7 +9,6 @@
   background-image: url('../img/mnu bg.png');
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   background-color: $nav-bg;
 }
@@ -25,14 +24,14 @@
 }
 
 #mainmenu ul li {
-  font-size: 16px;
-  padding:1rem;
+  font-size: 14px;
+  padding:10px;
   a {
    display: flex;
    align-items: center;
   }
   .icon {
-   width: 25px;
+   width: 20px;
    padding-right: 1rem;
   }
   p {
@@ -58,17 +57,16 @@
 }
 
 .search {
- padding: 1rem 1rem 2rem;
+ padding: 20px 10px 20px;
  .search_str {
-   font-size: 14px;
+   font-size: 12px;
    width: 80%;
-   height: 2.5rem;
-   padding: 1rem;
+   padding: 10px 15px;
    color: #fff;
    background-color: darken($nav-bg,5%);
    border-radius: 30px;
    border: none;
-   margin-right: 1rem;
+   margin-right: 10px;
  }
  .search_btn {
   font-size: 20px;
@@ -81,28 +79,28 @@
 }
 
 .user {
- padding-bottom: 1.5rem;
+ padding-bottom: 20px;
  text-align: center;
  .user_avatar {
   position: relative;
-  padding-bottom: 2rem;
+  padding-bottom: 15px;
   .user_status {
    position: absolute;
    top:75%;
-   right:15%;
-   width: 40px;
-   height: 40px;
+   right:23%;
+   width: 30px;
+   height: 30px;
   }
  }
  .user_photo {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   margin: 0 auto;
  }
  .user_name {
   color: $text-blue;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 20px;
   padding: 0.2rem;
  }
  .user_prof {
