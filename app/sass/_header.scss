@@ -1,0 +1,68 @@
+header {
+  width:100%;
+  padding: 1rem 0;
+  background-color: $app-bg;
+  position:fixed;
+  z-index: 99;
+  .fa {
+    color: #ffffff;
+    position:absolute;
+    top:0px;
+    height:50px;
+    width:50px;
+    font-size: 24pt;
+    text-align:center;
+    cursor:pointer;
+    line-height:80px;
+  }
+
+  .fa-bars {
+    left:10px
+  }
+
+  .fa-globe {
+    right:10px;
+  }
+
+  span {
+   position: absolute;
+   top: 20px;
+   right: 9px;
+   font-size: 9pt;
+   color: #fff;
+   background-color: $pink;
+   padding: .1rem .5rem;
+   border-radius: 20px;
+  }
+
+  h1 {
+    width:100%;
+    text-align:center;
+    color:#fff;
+    font-size:20pt;
+    height:50px;
+    line-height:50px;
+    font-weight: normal;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem 0 1rem;
+  li {
+    font-size: 13pt;
+    text-transform: uppercase;
+    font-weight: bold;
+    a {
+      padding: 0 1rem 0.7rem;
+      border-bottom: 2px solid transparent;
+    }
+
+    &:hover {
+      a {
+        border-bottom: 2px solid $pink;
+      }
+    }
+  }
+}

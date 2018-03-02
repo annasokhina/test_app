@@ -1,0 +1,61 @@
+.post {
+  padding-bottom: 50px;
+
+  .post_header {
+    padding-bottom: 18px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .author_photo, .author_info {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .author_photo {
+    width: 70px;
+    height: 70px;
+    padding-right: 10px;
+  }
+  .author_info {
+    .name {
+      font-weight: normal;
+      font-size: 16pt;
+      padding: 0.4rem 0 0.3rem;
+    }
+    .login {
+      color: $pink;
+      font-size: 12pt;
+    }
+  }
+
+  .post_info {
+    text-align: right;
+    .time {
+      padding-top: 10px;
+      font-size: 12pt;
+    }
+    .icons {
+      padding-top: 15px;
+      font-size: 14pt;
+      .like {
+        padding-right: 15px;
+      }
+      .like, .comment {
+        display: inline-block;
+        .fa {
+          font-size: 16pt;
+          padding-right: 5px;
+        }
+        .fa-heart-o {
+          color:$pink;
+        }
+        .fa-comment-o {
+          color:$app-bg;
+        }
+      }
+    }
+  }
+  .post_text {
+    font-size: 14pt;
+  }
+}

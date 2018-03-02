@@ -1,0 +1,105 @@
+#mainmenu {
+  width:320px;
+  height:100%;
+  background-image: url('../img/mnu bg.png');
+  background-size: cover;
+  position:fixed;
+  top:0px;
+  left:-320px;
+  z-index:99;
+  transition:0.2s;
+}
+
+.showmenu {
+  left:0px!important;
+  transition:0.2s;
+}
+
+.movemaincontainer {
+  margin-left:320px;
+  transition:0.2s;
+}
+
+#mainmenu ul li {
+  font-size: 16pt;
+  padding:1rem;
+  a {
+   display: flex;
+   align-items: center;
+  }
+  .icon {
+   width: 25px;
+   padding-right: 1rem;
+  }
+  p {
+   width: 80%;
+   color: #fff;
+  }
+  span {
+   padding: .3rem .8rem;
+   border-radius: 20px;
+  }
+  .trend {
+   color: $pink;
+   border: 1px solid $pink;
+  }
+  .people {
+   color: $green;
+   border: 1px solid $green;
+  }
+}
+
+#mainmenu ul li:hover {
+  background-color: darken($nav-bg,5%);
+}
+
+.search {
+ padding: 1rem 1rem 2rem;
+ .search_str {
+   font-size: 14pt;
+   width: 80%;
+   height: 2.5rem;
+   padding: 1rem;
+   color: #fff;
+   background-color: darken($nav-bg,5%);
+   border-radius: 30px;
+   border: none;
+   margin-right: 1rem;
+ }
+ .search_btn {
+  font-size: 20pt;
+ }
+}
+
+.user {
+ padding-bottom: 1.5rem;
+ text-align: center;
+ .user_avatar {
+  position: relative;
+  padding-bottom: 2rem;
+  .user_status {
+   position: absolute;
+   top:75%;
+   right:15%;
+   width: 40px;
+   height: 40px;
+  }
+ }
+ .user_photo {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+ }
+ .user_name {
+  color: $text-blue;
+  font-weight: normal;
+  font-size: 22pt;
+  padding: 0.2rem;
+ }
+ .user_prof {
+  font-size: 14pt;
+  font-weight: normal;
+  color: #fff;
+  opacity: .4;
+ }
+}
