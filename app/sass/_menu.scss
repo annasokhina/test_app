@@ -1,11 +1,11 @@
 #mainmenu {
-  width:320px;
+  width:300px;
   height:100%;
   background-image: url('../img/mnu bg.png');
   background-size: cover;
   position:fixed;
   top:0px;
-  left:-320px;
+  left:-300px;
   z-index:99;
   transition:0.2s;
 }
@@ -16,12 +16,12 @@
 }
 
 .movemaincontainer {
-  margin-left:320px;
+  margin-left:300px;
   transition:0.2s;
 }
 
 #mainmenu ul li {
-  font-size: 16pt;
+  font-size: 16px;
   padding:1rem;
   a {
    display: flex;
@@ -56,7 +56,7 @@
 .search {
  padding: 1rem 1rem 2rem;
  .search_str {
-   font-size: 14pt;
+   font-size: 14px;
    width: 80%;
    height: 2.5rem;
    padding: 1rem;
@@ -67,7 +67,7 @@
    margin-right: 1rem;
  }
  .search_btn {
-  font-size: 20pt;
+  font-size: 20px;
  }
 }
 
@@ -93,11 +93,11 @@
  .user_name {
   color: $text-blue;
   font-weight: normal;
-  font-size: 22pt;
+  font-size: 22px;
   padding: 0.2rem;
  }
  .user_prof {
-  font-size: 14pt;
+  font-size: 14px;
   font-weight: normal;
   color: #fff;
   opacity: .4;

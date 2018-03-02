@@ -19,12 +19,12 @@
   .author_info {
     .name {
       font-weight: normal;
-      font-size: 16pt;
+      font-size: 16px;
       padding: 0.4rem 0 0.3rem;
     }
     .login {
       color: $pink;
-      font-size: 12pt;
+      font-size: 12px;
     }
   }
 
@@ -32,18 +32,18 @@
     text-align: right;
     .time {
       padding-top: 10px;
-      font-size: 12pt;
+      font-size: 12px;
     }
     .icons {
       padding-top: 15px;
-      font-size: 14pt;
+      font-size: 14px;
       .like {
         padding-right: 15px;
       }
       .like, .comment {
         display: inline-block;
         .fa {
-          font-size: 16pt;
+          font-size: 16px;
           padding-right: 5px;
         }
         .fa-heart-o {
@@ -56,6 +56,6 @@
     }
   }
   .post_text {
-    font-size: 14pt;
+    font-size: 14px;
   }
 }
