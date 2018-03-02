@@ -1,13 +1,17 @@
 #mainmenu {
   width:300px;
-  height:100%;
-  background-image: url('../img/mnu bg.png');
-  background-size: cover;
-  position:fixed;
+  height:150vh;
+  position:absolute;
   top:0px;
   left:-300px;
   z-index:99;
   transition:0.2s;
+  background-image: url('../img/mnu bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: $nav-bg;
 }
 
 .showmenu {
@@ -68,6 +72,11 @@
  }
  .search_btn {
   font-size: 20px;
+  color: #fff;
+  .fa {
+   color: #fff;
+   opacity: .4;
+  }
  }
 }
 
