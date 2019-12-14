@@ -1,2 +1,2 @@
-#Test App
-<a href="https://annasokhina.github.io/test_app/">View</a>
+#BS Test Task
+<a href="https://sokhann.github.io/test_app/">View</a>
